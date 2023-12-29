@@ -6,8 +6,8 @@
           <img
             src="../assets/images/logo.png"
             alt="Logo"
-            width="150"
-            height="150"
+            width="140"
+            height="140"
             class="d-inline-block align-text-top"
           />
         </a>
@@ -68,5 +68,14 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff !important;
+    font-size: 1.7rem;
+    margin: 0 10px;
 }
 </style>
