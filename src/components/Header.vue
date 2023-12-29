@@ -6,15 +6,15 @@
           <img
             src="../assets/images/logo.png"
             alt="Logo"
-            width="150"
-            height="150"
+            width="100"
+            height="100"
             class="d-inline-block align-text-top"
           />
         </a>
         <ul class="nav justify-content-end">
           <li class="nav-item">
             <router-link to="/" class="nav-link">
-              <img src="../assets/images/favoritos.png" alt="" class="icons" />
+              <img src="../assets/images/favoritos.png" alt="" id="icon-fav" class="icons" />
               <div class="text-icons">
                 Favoritos
               </div>
@@ -54,16 +54,22 @@ a {
   --bs-gutter-x: 0;
 }
 .icons {
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     margin: 0 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
+#icon-fav {
+  position: relative;
+  left: 15px;
+}
+
 .text-icons {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
